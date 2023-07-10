@@ -14,10 +14,12 @@
   border-radius: 8px;
   background: #e55473;
   color: #fff;
-  font-family: Lato;
   font-size: 18px;
   font-weight: 700;
-  margin-top:20px;
+  margin-top: 20px;
+}
+.primary-txt {
+  color: #e55473;
 }
 /* Start Header Part */
 .header {
@@ -31,15 +33,43 @@
 }
 .banner-description h1 {
   color: #272727;
-  font-family: Lato;
   font-size: 60px;
   font-weight: 700;
 }
 .banner-description p {
   color: rgba(39, 39, 39, 0.6);
-  font-family: Lato;
   font-size: 18px;
-  line-height: 26px;
+  line-height: 1.5;
   font-weight: 400;
   margin-top: 20px;
+}
+/* Start About Us Section */
+.about-us {
+  padding: 100px 240px 0px 240px;
+}
+.about-us h1 {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+}
+.about-us-container {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about-us-img img {
+  width: 500px;
+  height: 300px;
+  box-shadow: 4px 4px 8px 3px gray;
+  border-radius: 8px;
+}
+.about-us-description h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.about-us-desc-txt {
+  font-size: 18px;
+  line-height: 1.4;
 }
