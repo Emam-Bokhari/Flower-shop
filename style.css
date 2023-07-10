@@ -72,6 +72,7 @@
 .about-us-desc-txt {
   font-size: 18px;
   line-height: 1.4;
+  color: rgba(39, 39, 39, 0.6);
 }
 /* Start Our Featured Flowers Section */
 .featured-flowers {
@@ -231,4 +232,36 @@
   width: 75px;
   height: 75px;
   border-radius: 50%;
+}
+/* Start Latest Deals Section */
+.latest-deals-section {
+  background-image: url("./Flower\ Asset/latest-deals-bg.png");
+  border-radius: 8px;
+  width: 1380px;
+  height: 350px;
+  margin: 100px auto;
+  text-align: center;
+}
+.latest-deals-section h1 {
+  font-size: 32px;
+  padding-top: 60px;
+}
+.latest-deals-section p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.latest-deals-section input {
+  width: 600px;
+  height: 58px;
+  padding: 10px;
+  border-radius: 8px;
+  margin-right: 10px;
+  margin-top: 40px;
+}
+.latest-deals-section input::placeholder {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 16px;
+  font-weight: 400;
 }
