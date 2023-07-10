@@ -159,8 +159,8 @@
 .hot-deal-container h1 {
   font-size: 32px;
 }
-.hot-deal-container{
-    text-align: center;
+.hot-deal-container {
+  text-align: center;
 }
 .hot-deal-container p {
   margin-top: 20px;
@@ -169,7 +169,28 @@
   font-weight: 400;
   line-height: 1.4;
 }
-.hot-deal-img img{
-    width:318px;
-    height:420px;
+.hot-deal-img img {
+  width: 318px;
+  height: 420px;
+}
+/* Social Section Start */
+.social-section {
+  padding: 100px 240px 0px 240px;
+  text-align: center;
+}
+.social-section p {
+  margin-top: 20px;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+.social-section-cards-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.social-section-cards-container img {
+  width: 330px;
+  height: 396px;
 }
