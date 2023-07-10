@@ -194,3 +194,41 @@
   width: 330px;
   height: 396px;
 }
+/* Customer Review Section Start */
+.customer-review-section {
+  padding: 100px 240px 0px 240px;
+}
+.customer-review-container {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+.customer-review-details {
+  width: 400px;
+  height: 350px;
+  box-shadow: 4px 4px 12px 2px gray;
+  border-radius: 8px;
+  margin-top: 20px;
+  padding: 20px;
+}
+.customer-review-details .icon i {
+  color: red;
+}
+.customer-review-details p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.4;
+  margin-top: 10px;
+}
+.customer-profile-desc {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.customer-profile-img img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+}
