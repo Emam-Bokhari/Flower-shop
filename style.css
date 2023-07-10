@@ -123,3 +123,25 @@
   border-radius: 300px 300px 0px 0px;
   background: rgba(71, 125, 17, 0.15);
 }
+/* Delivery Section Start */
+.delivery-section {
+  width: 1380px;
+  height: 250px;
+  margin:80px auto;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+}
+.delivery-container{
+    height: 250px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:100px;
+}
+.delivery-container p{
+    margin-top:10px;
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 18px;
+    font-weight: 700;
+}
