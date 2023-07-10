@@ -1,0 +1,45 @@
+/* Common Css Style */
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Lato";
+}
+/* Reuseable */
+.primary-btn {
+  padding: 17px 34px;
+  border-radius: 8px;
+  background: #e55473;
+  color: #fff;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top:20px;
+}
+/* Start Header Part */
+.header {
+  background: rgba(229, 84, 115, 0.1);
+}
+.banner-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 240px 0px 240px;
+}
+.banner-description h1 {
+  color: #272727;
+  font-family: Lato;
+  font-size: 60px;
+  font-weight: 700;
+}
+.banner-description p {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  margin-top: 20px;
+}
