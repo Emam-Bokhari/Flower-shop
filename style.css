@@ -21,6 +21,12 @@
 .primary-txt {
   color: #e55473;
 }
+.title {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+}
 /* Start Header Part */
 .header {
   background: rgba(229, 84, 115, 0.1);
@@ -47,12 +53,6 @@
 .about-us {
   padding: 100px 240px 0px 240px;
 }
-.about-us h1 {
-  color: #272727;
-  text-align: center;
-  font-size: 40px;
-  font-weight: 700;
-}
 .about-us-container {
   padding-top: 20px;
   display: flex;
@@ -72,4 +72,54 @@
 .about-us-desc-txt {
   font-size: 18px;
   line-height: 1.4;
+}
+/* Start Our Featured Flowers Section */
+.featured-flowers {
+  padding: 100px 240px 0px 240px;
+}
+.featured-flowers p {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.4;
+  margin-top: 20px;
+}
+.featured-flowers-cards-container {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flowers-details p {
+  color: #272727;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration-line: underline;
+}
+.flowers-card {
+  width: 440px;
+  height: 520px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  position: relative;
+}
+.flowers-card-img-primary {
+  position: absolute;
+  bottom: 0px;
+  left: 14%;
+}
+.card-2 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+  position: relative;
+}
+.flowers-card-img-2 {
+  position: absolute;
+  left: 14%;
+  top: 20%;
+}
+.card-3 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
 }
