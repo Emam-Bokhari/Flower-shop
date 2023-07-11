@@ -265,3 +265,35 @@
   font-size: 16px;
   font-weight: 400;
 }
+/* Contact Us Section Start */
+.contact-us-section {
+  margin-top: 20px;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+}
+.contact-us-section h1 {
+  padding-top: 40px;
+}
+.contact-us-section form {
+  width: 1420px;
+  margin: 0 auto;
+  text-align: center;
+}
+.contact-us-container form .input-box {
+  display: flex;
+  justify-content: space-between;
+}
+.contact-us-container form .input-box input,
+.contact-us-container textarea {
+  width: 100%;
+  padding: 20px;
+  border-radius: 8px;
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 20px;
+}
+.contact-us-container textarea {
+  width: 1380px;
+  resize: none;
+}
